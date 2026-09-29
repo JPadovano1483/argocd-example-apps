@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: guestbook-ui
+        demo.kargo/trace: update-1
     spec:
       containers:
       - image: gcr.io/google-samples/gb-frontend:v5
